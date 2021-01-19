@@ -9,23 +9,20 @@
     body {
         background-color: green;
         font-size: 66%;
-        text-align: left;
-    }
-    p {
-        padding: 10px;
+        text-align: justify;
     }
     #small {
-        position: absolute;
-        left: 1%;
+        display: block;
+        float: left;
         width: 66%;
     }
     #medium {
-        position: relative;
-        left: 66%;
+        display: block;
+        float: right;
         width: 33%;
     }
     #large {
-        position: relative;
+        display: inline-block;
         width: 100%;
         bottom: 0;
     }
