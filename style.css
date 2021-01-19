@@ -1,14 +1,14 @@
 @media screen and (max-width: 410px) {
     body {
         background-color: red;
-        font-size: 100%;
+        font-size: 50%;
         text-align: justify;
     }
 }
 @media screen and (min-width: 410px) and (max-width: 768px) {
     body {
-        background-color:blue;
-        font-size: 100%;
+        background-color: green;
+        font-size: 66%;
         text-align: left;
     }
     p {
@@ -34,7 +34,7 @@
     body {
         display: flex;
         flex-direction: row;
-        background-color:green;
+        background-color: blue;
         font-size: 100%;
     }
     p {
