@@ -24,17 +24,15 @@
     #large {
         display: inline-block;
         width: 100%;
-        bottom: 0;
     }
 }
 @media screen and (min-width: 768px) {
     body {
         display: flex;
-        flex-direction: row;
         background-color: blue;
         font-size: 100%;
     }
     p {
-        padding: 5px;
+        margin: 5px;
     }
 }
